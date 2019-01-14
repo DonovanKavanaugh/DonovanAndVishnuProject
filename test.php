@@ -9,4 +9,6 @@
 
     while ($row = mysqli_fetch_assoc($result)) {
         echo "sport is: " . $row['sport'] . " and about is: " . $row['about'];
+        echo "</table>";
     }
+?>
